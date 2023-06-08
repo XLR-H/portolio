@@ -140,7 +140,7 @@ span {
     font-weight: 400;
 }
 
-@media (min-width: 401px) and (max-width: 1200px) {
+@media (min-width: 551px) and (max-width: 1200px) {
     .cabecalho{
         padding: 2% 10%;
         display: flex;
@@ -157,7 +157,7 @@ span {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 550px) {
     .cabecalho{
         padding: 2% 10%;
         display: flex;
