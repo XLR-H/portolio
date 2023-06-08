@@ -140,7 +140,7 @@ span {
     font-weight: 400;
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 401px) and (max-width: 1200px) {
     .cabecalho{
         padding: 2% 10%;
         display: flex;
@@ -153,8 +153,38 @@ span {
     }
 
     .apresentacao__conteudo {
-        width: auto;
+        width: 100%;
     }
-    
-
 }
+
+@media (max-width: 400px) {
+    .cabecalho{
+        padding: 2% 10%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cabecalho__menu {
+        display: flex;
+        gap: 10px;
+    }
+
+    .cabecalho__menu__link {
+        font-size: 1rem;
+        font-weight: 600;
+        border: 2px solid var(--cor--destaque);
+        border-radius: 20px;
+        padding: 3px;
+        width: 110px;
+    }
+            
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 1% 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: 100%;
+    }
+}
+
