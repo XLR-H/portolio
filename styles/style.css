@@ -124,8 +124,8 @@ span {
 
 .apresentacao__links__imagem {
     /* filter: hue-rotate(193deg); */
-    height: auto;
-    max-width: 50%;
+    height: 25%;
+    max-width: 25%;
 }
 
 .apresentacao__imagem {
