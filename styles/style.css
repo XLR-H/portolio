@@ -123,7 +123,9 @@ span {
 }
 
 .apresentacao__links__imagem {
-    filter: hue-rotate(193deg);
+    /* filter: hue-rotate(193deg); */
+    height: auto;
+    max-width: 50%;
 }
 
 .apresentacao__imagem {
