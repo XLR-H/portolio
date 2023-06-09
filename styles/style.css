@@ -6,8 +6,8 @@
     --cor--destaque: #ff6000;
     --cor--hover: #ffa559;
 
-    --font1: 'Krona One', sans-serif;
-    --font2: 'Montserrat', sans-serif;
+    --krona: 'Krona One', sans-serif;
+    --montserrat: 'Montserrat', sans-serif;
 }
 
 * {
@@ -38,7 +38,7 @@ span {
 }
 
 .cabecalho__menu__link {
-    font-family: var(--font2);
+    font-family: var(--montserrat);
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor--destaque);
@@ -70,8 +70,8 @@ span {
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 2.25rem;
-    font-family: var(--font1);
+    font-size: 1.5rem;
+    font-family: var(--krona);
     text-shadow: 3px 3px 6px #000;
 }
 
@@ -81,7 +81,12 @@ span {
 
 .apresentacao__conteudo__texto {
     font-size: 1.5rem;
-    font-family: var(--font2);
+    font-family: var(--montserrat);
+}
+
+.apresentacao__conteudo__texto__imagem {
+    filter: invert(0.9);
+    width: 4%;
 }
 
 .apresentacao__links {
@@ -89,31 +94,32 @@ span {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    gap: 24px;
+    gap: 12px;
 }
 
 .apresentacao__links__subtitulo {
-    font-family: var(--font1);
+    font-family: var(--krona);
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 
 .apresentacao__links__link {
     /* background-color: var(--cor--destaque);  */
     display: flex;
-    justify-content: center;
+    justify-content:center;
+    align-items: center ;
     gap: 8px;
     border: 2px solid var(--cor--destaque);
     width: 200px;
-    text-align: center;
+    text-align:center ;
     border-radius: 30px;
     font-size: 1.5rem;
     font-weight: 600;
-    padding: 12px 0px;
+    padding: 8px 0px;
     text-decoration: none;
     color: var(--cor--destaque);
-    font-family: var(--font2);
+    font-family: var(--montserrat);
 }
 
 .apresentacao__links__link:hover {
@@ -123,9 +129,9 @@ span {
 }
 
 .apresentacao__links__imagem {
-    /* filter: hue-rotate(193deg); */
-    height: 25%;
-    max-width: 25%;
+    filter:invert(0.75);
+    /* filter:hue-rotate(90deg); */
+    width: 15%;
 }
 
 .apresentacao__imagem {
@@ -137,7 +143,7 @@ span {
     color: #000000;
     background-color: var(--cor--destaque);
     text-align: center;
-    font-family: var(--font2);
+    font-family: var(--montserrat);
     font-size: 1.5rem;
     font-weight: 400;
 }
